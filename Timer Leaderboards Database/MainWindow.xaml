@@ -11,7 +11,11 @@
         <TextBlock HorizontalAlignment="Left" Height="61" Margin="10,33,0,0" TextWrapping="Wrap" Text="Press to stop timer." VerticalAlignment="Top" Width="256" FontSize="30" FontFamily="Times New Roman"/>
         <TextBlock HorizontalAlignment="Left" Height="65" TextWrapping="Wrap" Text="Enter your 3 digit username:" VerticalAlignment="Top" Width="344" FontSize="30" FontFamily="Times New Roman" Margin="0,152,0,0"/>
         <TextBox x:Name="Enter_Name" HorizontalAlignment="Left" Height="65" Margin="358,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" MaxLength="3"/>
-        <Button x:Name="SubmitScore" Content="Submit Score" HorizontalAlignment="Center" Height="164" Margin="0,222,0,0" VerticalAlignment="Top" Width="390" FontSize="30" Click="SubmitScore_Click"/>
+        <Button x:Name="SubmitScore" Content="Submit Score" HorizontalAlignment="Left" Height="164" Margin="10,260,0,0" VerticalAlignment="Top" Width="390" FontSize="30" Click="SubmitScore_Click"/>
+        <Button x:Name="Retrieve_Scores" Content="Retrieve Scores" HorizontalAlignment="Left" Height="163" Margin="405,261,0,0" VerticalAlignment="Top" Width="390" FontSize="30" Click="Retrieve_Scores_Click"/>
+        <TextBox x:Name="usernames" HorizontalAlignment="Left" Height="43" Margin="567,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="scores" HorizontalAlignment="Left" Height="44" Margin="567,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="playerid" HorizontalAlignment="Left" Height="43" Margin="567,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
 
     </Grid>
 </Window>
